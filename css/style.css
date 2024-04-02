@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    color: #151515;
+}
+
+.movie-card {
+    margin-top: 3rem;
+    height: 800px;
+    text-align: center;
+}
+
+.movie-title {
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+}
+
+.movie-poster-container img {
+    margin-top: 1.5rem;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.movie-rating {
+    border: 1px solid #151515;
+    padding: 0.3rem;
+    border-radius: 2.5px;
+}
+
+.movie-duration {
+    margin-left: 1rem;
+    letter-spacing: 0.2rem;
+}
+
+.movie-duration:before {
+    content: "\2022";
+}
+
+.movie-info-quote {
+    color: #151515a4;
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.movie-info-overview-title {
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+}
+
+.movie-info-actions {
+    font-size:1.1rem;
+}
+
+.movie-info-actions ul {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.movie-info-actions ul li {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(3, 37, 65);
+    
+}
+
+.movie-info-actions ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 5rem;
+    text-align: center;
+    color: #777;
+    display: center;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer ul li a {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #777;
+}
